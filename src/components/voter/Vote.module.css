@@ -1,0 +1,15 @@
+.voteContainer {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.icon,
+.voteContainer p {
+  opacity: 0.4;
+  transition: opacity 0.5s;
+}
+
+.icon:hover {
+  opacity: 1;
+  cursor: pointer;
+}

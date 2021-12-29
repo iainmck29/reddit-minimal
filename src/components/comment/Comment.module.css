@@ -1,0 +1,8 @@
+.commentContainer {
+  border-bottom: 1px solid black;
+}
+
+.author {
+  font-style: italic;
+  opacity: 0.4;
+}

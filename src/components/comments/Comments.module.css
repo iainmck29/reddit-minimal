@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postedBy {
+  display: flex;
+}
+
+.postedBy p {
+  margin-right: 4px;
+  font-style: italic;
+}
+
+.highlighted {
+  color: blue;
+}
+
+.gray,
+.icon {
+  opacity: 0.4;
+}
+
+.icon {
+  margin-block-start: 1em;
+  transition: opacity 0.5s;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.hide {
+  display: none;
+}

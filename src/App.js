@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import style from './App.module.css'
+import NavBar from './components/nav/NavBar';
+import Card from './components/card/Card';
+import { getReddits } from './api/reddit'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <NavBar />
+      <div className={style.appContainer}>
+        <main>
+            <Card cardType='reddit' />
+        </main>
+
+        <Card cardType='subreddit' />
+
+      </div>
     </div>
   );
 }

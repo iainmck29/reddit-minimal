@@ -1,0 +1,24 @@
+.card {
+  padding: 20px;
+  margin: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  display: flex;
+}
+
+.reddit img {
+  max-width: 100%;
+  height: auto;
+}
+
+.reddit h2 {
+  margin-top: 28px;
+}
+
+.subreddit {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
