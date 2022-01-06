@@ -1,8 +1,25 @@
-.commentContainer {
-  border-bottom: 1px solid black;
+.reply {
+  padding-left: 30px;
+  border-bottom: none;
 }
 
 .author {
   font-style: italic;
   opacity: 0.4;
+}
+
+.hide {
+  display: none;
+}
+
+.showComments {
+  transition: transform 0.5s;
+  transform: rotate(-90deg);
+  cursor: pointer;
+}
+
+.hideComments {
+  transition: transform 0.5s;
+  transform: rotate(0deg);
+  cursor: pointer;
 }

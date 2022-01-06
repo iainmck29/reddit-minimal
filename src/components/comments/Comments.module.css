@@ -1,3 +1,11 @@
+.container {
+  width: 100%;
+}
+
+.commentContainer {
+  border-bottom: 1px solid black;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
